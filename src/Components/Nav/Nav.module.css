@@ -1,0 +1,32 @@
+nav {
+  padding: 10px;
+  border-bottom: 3px solid rgb(100, 100, 100);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+.nav span {
+  font-size: 30px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  column-gap: 30px;
+  font-size: 30px;
+}
+a:visited {
+  text-decoration: none;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover{
+  cursor: pointer;
+
+}

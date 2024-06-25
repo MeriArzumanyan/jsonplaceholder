@@ -1,0 +1,19 @@
+.allPageAlbums {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.allPageAlbums .albums {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 60px;
+  gap: 20px;
+}
+.textsForAlbums {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  width: 30%;
+  filter: drop-shadow(8px 8px 10px rgb(68, 84, 100));
+}
